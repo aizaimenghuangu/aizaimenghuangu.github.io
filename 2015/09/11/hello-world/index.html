@@ -13,6 +13,13 @@
     
     
     
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="aizaimenghuangu" />
+    <meta name="twitter:title" content="Hello World | 我家有个怕迟到的小智慧" />
+      
+    
+    
+    <link rel="alternate" href="/atom.xml" title="我家有个怕迟到的小智慧" type="application/atom+xml">
     
     
     <link rel="icon" href="/img/favicon.ico">
@@ -43,16 +50,17 @@
 					
 						<li><a href="/">主页</a></li>
 					
+						<li><a href="/index">索引</a></li>
+					
 						<li><a href="/archives">归档</a></li>
 					
 						<li><a href="/about">关于</a></li>
 					
 					<li>
 					
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
-						<input type="hidden" name="q" value="site:yoursite.com">
+						<input type="text" id="search" autocomplete="off" name="q" maxlength="20" placeholder="搜索" />
 					</form>
 					
 					</li>
@@ -71,11 +79,11 @@
   </h1>
   <p class="article-author">By
     
-      <a href="http://yoursite.com" title="熊金飞">熊金飞</a>
+      <a href="http://aizaimenghuangu.github.io" title="熊金飞">熊金飞</a>
     </p>
   <p class="article-time">
-    <time datetime="2015-09-11T06:18:59.000Z" itemprop="datePublished">2015-09-11</time>
-    更新日期:<time datetime="2015-09-11T06:18:59.000Z" itemprop="dateModified">2015-09-11</time>
+    <time datetime="2015-09-11T06:18:59.000Z" itemprop="datePublished">2015年09月11日</time>
+    更新日期:<time datetime="2015-09-11T06:18:59.000Z" itemprop="dateModified">2015年09月11日</time>
     
   </p>
 </header>
@@ -105,7 +113,7 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2015/09/11/hello-world/" data-title="Hello World | 我家有个怕迟到的小智慧" data-tsina="null" class="share clearfix">
+  <div data-url="http://aizaimenghuangu.github.io/2015/09/11/hello-world/" data-title="Hello World | 我家有个怕迟到的小智慧" data-tsina="aizaimenghuangu" class="share clearfix">
   </div>
 
 </div>
@@ -126,6 +134,10 @@
 </nav>
 
 	
+<section class="comment">
+	<div class="ds-thread"></div>
+</section>
+
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
@@ -139,6 +151,15 @@
 <aside class="clearfix">
 
   
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/blog/" title="blog">blog<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
 
   
 <div class="tagslist">
@@ -154,7 +175,7 @@
 
 
   <div class="rsspart">
-	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
 </div>
 
 </aside>
@@ -168,16 +189,29 @@
 	</div>
 	
 	
+	<section class="info">
+		<p> Hello, I&#39;m KTV. This is my blog on GitHub. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
 	<div class="social-font clearfix">
 		
+		<a href="http://weibo.com/aizaimenghuangu" target="_blank" title="weibo"></a>
 		
 		
+		<a href="https://twitter.com/aizaimenghuangu" target="_blank" title="twitter"></a>
+		
+		
+		<a href="https://github.com/aizaimenghuangu" target="_blank" title="github"></a>
+		
+		
+		<a href="https://www.facebook.com/aizaimenghuangu" target="_blank" title="facebook"></a>
 		
 		
 	</div>
 		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2015 
 		
-		<a href="http://yoursite.com" target="_blank" title="熊金飞">熊金飞</a>
+		<a href="http://aizaimenghuangu.github.io" target="_blank" title="熊金飞">熊金飞</a>
 		
 		</p>
 </div>
@@ -292,9 +326,25 @@ $(document).ready(function(){
 </script>
 
 
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"aizaimenghuangu"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
 
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+<script src="/js/totop.js"></script>
   </body>
 </html>
