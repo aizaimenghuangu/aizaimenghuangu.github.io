@@ -3,9 +3,9 @@
   <title><![CDATA[KTV测试神话]]></title>
   <subtitle><![CDATA[打造KTV测试神话]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
+  <link href="http://aizaimenghuangu.github.io/"/>
   <updated>2015-09-11T04:17:49.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://aizaimenghuangu.github.io/</id>
   
   <author>
     <name><![CDATA[熊金飞]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[我编写的第一个文章]]></title>
-    <link href="http://yoursite.com/2015/09/11/my-new-post/"/>
-    <id>http://yoursite.com/2015/09/11/my-new-post/</id>
+    <link href="http://aizaimenghuangu.github.io/2015/09/11/my-new-post/"/>
+    <id>http://aizaimenghuangu.github.io/2015/09/11/my-new-post/</id>
     <published>2015-09-11T04:08:15.000Z</published>
     <updated>2015-09-11T04:17:49.000Z</updated>
     <content type="html"><![CDATA[<h2 id="这里是我写的第一个文章">这里是我写的第一个文章</h2><h6 id="创建了一个新文章，哇咔咔，庆祝一下哈！">创建了一个新文章，哇咔咔，庆祝一下哈！</h6>]]></content>
@@ -25,16 +25,16 @@
     <![CDATA[<h2 id="这里是我写的第一个文章">这里是我写的第一个文章</h2><h6 id="创建了一个新文章，哇咔咔，庆祝一下哈！">创建了一个新文章，哇咔咔，庆祝一下哈！</h6>]]>
     </summary>
     
-      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="http://aizaimenghuangu.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="文章" scheme="http://yoursite.com/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="http://aizaimenghuangu.github.io/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/09/11/hello-world/"/>
-    <id>http://yoursite.com/2015/09/11/hello-world/</id>
+    <link href="http://aizaimenghuangu.github.io/2015/09/11/hello-world/"/>
+    <id>http://aizaimenghuangu.github.io/2015/09/11/hello-world/</id>
     <published>2015-09-10T23:10:24.000Z</published>
     <updated>2015-09-10T23:10:24.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
