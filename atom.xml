@@ -41,8 +41,8 @@
     <link href="http://aizaimenghuangu.github.io/2015/09/11/my-new-post/"/>
     <id>http://aizaimenghuangu.github.io/2015/09/11/my-new-post/</id>
     <published>2015-09-11T04:08:15.000Z</published>
-    <updated>2015-09-14T10:50:40.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="移动互联网测试体系构建">移动互联网测试体系构建</h2><h2 id="1-_背景">1. 背景</h2><p>在阅读了<a href="http://mp.weixin.qq.com/s?__biz=MjM5NTU0MDg0MA==&amp;mid=208668373&amp;idx=3&amp;sn=c089fdd67d13a130d6b6444455ec1062&amp;scene=1&amp;srcid=0914vS9Z6aZwBiEgn6YeEj63&amp;key=dffc561732c2265137765d0ec400254ac5344eb6831fc210af8901cf607408e2d9656e8c447405d51d6844c92c01af46&amp;ascene=0&amp;uin=Mzc2Mjk1NDU%3D&amp;devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.10.5+build(14F27" target="_blank" rel="external">如何保障每个版本的测试质量</a>&amp;version=11020201&amp;pass_ticket=UweAxqVXuju3XjC7ueqKFwdyKp2Vdqw%2Fhi80eETJZG0%3D)之后，有两句话让我印象深刻：</p>
+    <updated>2015-09-14T10:57:12.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="移动互联网测试体系构建">移动互联网测试体系构建</h2><h2 id="1-_背景">1. 背景</h2><p>在阅读了<a href="http://mp.weixin.qq.com/s?__biz=MjM5NTU0MDg0MA==&amp;mid=208668373&amp;idx=3&amp;sn=c089fdd67d13a130d6b6444455ec1062&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" target="_blank" rel="external">如何保障每个版本的测试质量</a>之后，有两句话让我印象深刻：</p>
 <blockquote>
 <p>当测试团队足够强大，逐步规范的过程，慢慢建立起一套<strong>测试体系</strong>。</p>
 <p>测试是一份事业，不断完善自己和队伍，才能让这份事业持续地发展下去。</p>
