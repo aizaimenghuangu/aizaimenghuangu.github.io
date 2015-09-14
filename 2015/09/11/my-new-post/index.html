@@ -27,7 +27,8 @@
 测试是一份事业，不断完善自己和队伍，才能让这份事业持续地发展下去。
 
 在我看来，测试体系是测试团队发展的一个重要标识，也是一个基础，是测试发展的必然产物，当这套体系建立好了之后，测试团队的核心人员才会有更多的精力去做测试之上的事情，自动化测">
-<meta property="og:updated_time" content="2015-09-14T11:04:22.000Z">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/445894-d8dbd75ad798a974.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2015-09-14T11:30:10.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="移动互联网测试体系构建">
 <meta name="twitter:description" content="移动互联网测试体系构建1. 背景在阅读了如何保障每个版本的测试质量之后，有两句话让我印象深刻：
@@ -111,7 +112,7 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#移动互联网测试体系构建"><span class="toc-number">1.</span> <span class="toc-text">移动互联网测试体系构建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-_背景"><span class="toc-number">2.</span> <span class="toc-text">1. 背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-_测试体系的内容"><span class="toc-number">3.</span> <span class="toc-text">2. 测试体系的内容</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#移动互联网测试体系构建"><span class="toc-number">1.</span> <span class="toc-text">移动互联网测试体系构建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-_背景"><span class="toc-number">2.</span> <span class="toc-text">1. 背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-_测试体系的内容"><span class="toc-number">3.</span> <span class="toc-text">2. 测试体系的内容</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#A-_产品逻辑梳理"><span class="toc-number">3.1.</span> <span class="toc-text">A. 产品逻辑梳理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#B-_测试要点设计"><span class="toc-number">3.2.</span> <span class="toc-text">B. 测试要点设计</span></a></li></ol></li></ol>
 		
 		</div>
 		
@@ -131,6 +132,16 @@
 <li>线上问题重现</li>
 <li>线上问题总结</li>
 </ul>
+<p>接下来我将具体描述每一个模块的内容：</p>
+<h3 id="A-_产品逻辑梳理">A. 产品逻辑梳理</h3><p>在产品测试过程中一个非常重要的点就是产品的逻辑，这里有两个层面的内容，浅一点来说是<code>业务逻辑</code>，也就是模块与模块之间的交互，或者独立模块中的小模块之间的交互；深一层次的就是<code>数据流</code>，我更喜欢将两者统称为<code>数据流</code>。用一个流程图最容易描述里面的内容，具体包含： </p>
+<ul>
+<li>产品实现的功能点描述</li>
+<li>每个功能点的数据在哪里创建</li>
+<li>被哪个模块处理了</li>
+<li>数据在模块之间是如何传递的</li>
+<li>最终到了哪里，在哪里展示(例如机顶盒中展示)或者保存(例如在保存到数据库中)。</li>
+</ul>
+<h3 id="B-_测试要点设计">B. 测试要点设计</h3><p>当测试工程师理解完产品需求或者开发提交的版本说明后，首先要做的就是设计测试要点，这个过程有其实是一个<a href="http://www.jianshu.com/p/13835cc37487" target="_blank" rel="external">探索性测试</a>的过程，流程如下:<img src="http://upload-images.jianshu.io/upload_images/445894-d8dbd75ad798a974.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="探索性测试流程">除了要完成以上流程，还需要对测试内容进行整理，为二次过</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -189,7 +200,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#移动互联网测试体系构建"><span class="toc-number">1.</span> <span class="toc-text">移动互联网测试体系构建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-_背景"><span class="toc-number">2.</span> <span class="toc-text">1. 背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-_测试体系的内容"><span class="toc-number">3.</span> <span class="toc-text">2. 测试体系的内容</span></a></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#移动互联网测试体系构建"><span class="toc-number">1.</span> <span class="toc-text">移动互联网测试体系构建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-_背景"><span class="toc-number">2.</span> <span class="toc-text">1. 背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-_测试体系的内容"><span class="toc-number">3.</span> <span class="toc-text">2. 测试体系的内容</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#A-_产品逻辑梳理"><span class="toc-number">3.1.</span> <span class="toc-text">A. 产品逻辑梳理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#B-_测试要点设计"><span class="toc-number">3.2.</span> <span class="toc-text">B. 测试要点设计</span></a></li></ol></li></ol>
  
   </div>
 
