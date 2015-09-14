@@ -41,7 +41,7 @@
     <link href="http://aizaimenghuangu.github.io/2015/09/11/my-new-post/"/>
     <id>http://aizaimenghuangu.github.io/2015/09/11/my-new-post/</id>
     <published>2015-09-11T04:08:15.000Z</published>
-    <updated>2015-09-14T11:56:19.000Z</updated>
+    <updated>2015-09-14T12:26:07.000Z</updated>
     <content type="html"><![CDATA[<h2 id="移动互联网测试体系构建">移动互联网测试体系构建</h2><h2 id="1-_背景">1. 背景</h2><p>在阅读了<a href="http://mp.weixin.qq.com/s?__biz=MjM5NTU0MDg0MA==&amp;mid=208668373&amp;idx=3&amp;sn=c089fdd67d13a130d6b6444455ec1062&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" target="_blank" rel="external">如何保障每个版本的测试质量</a>之后，有两句话让我印象深刻：</p>
 <blockquote>
 <p>当测试团队足够强大，逐步规范的过程，慢慢建立起一套<strong>测试体系</strong>。</p>
